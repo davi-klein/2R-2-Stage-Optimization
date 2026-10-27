@@ -6,8 +6,8 @@ This repository contains the official MATLAB and Simulink codebase for the manus
 
 *   **`/src`**: Contains the metaheuristic optimization algorithms (`fma.m`, `doa.m`, `pso.m`), the objective functions for position error and Dynamic Residual Torque (DRT) minimization, and all analytical plotting scripts.
 *   **`/models`**: Houses the high-fidelity dynamic plant model `Robot_2R_Dynamics_and_Control.slx`.
-*   **`/data`**: Stores the high-resolution reference trajectories (`trajetoria2R_high_res.mat`).
-*   **`/results`**: The designated output directory for the 30-run statistical benchmark data (`/statistical_benchmark`) and the publication-ready IEEE-styled plots (`/figures`).
+*   **`/data`**: Stores the high-resolution reference trajectory (`opt_traj_2R.mat`).
+*   **`/results`**: The designated output directory for the 30-run statistical benchmark data (`/statistical_benchmark`) and the results plots (`/figures`).
 
 ## Execution Pipeline (`main.m`)
 
