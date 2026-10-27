@@ -1,0 +1,26 @@
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# MATLAB and Simulink Auto-generated Files
+slprj/
+slprj_worker_*/
+*.slxc
+*.autosave
+*.asv
+matlab_crash_dump*
+*.req
+
+# Exclude large temporary data if needed (uncomment if applicable)
+# *.mat
+
+# Ignore all generated figures but keep the directory structure
+results/figures/*
+!results/figures/.gitkeep
+
+# Ignore all generated figures but keep the directory structure
+results/figures/*
+!results/figures/.gitkeep
+results/figures/*
+!results/figures/.gitkeep
